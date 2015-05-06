@@ -1,0 +1,32 @@
+{
+  "name": "rfm69",
+  "version": "0.0.1",
+  "description": "Node module for interfacing with HopeRF RFM69 modules on a Raspberry Pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:e2e": "mocha ./test/e2e.js",
+    "test:mock": "mocha ./test/mock.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dconstructing/rfm69.git"
+  },
+  "keywords": [
+    "HopeRF",
+    "RFM69",
+    "RFM69W",
+    "RFM69HW",
+    "SPI"
+  ],
+  "author": "David Cox <losttime.shuffle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dconstructing/rosie/issues"
+  },
+  "homepage": "https://github.com/dconstructing/rosie",
+  "dependencies": {
+    "onoff": "^1.0.2",
+    "pi-spi": "^0.8.7"
+  }
+}
