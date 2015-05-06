@@ -1,4 +1,4 @@
-#rfm69
+# rfm69
 
 Node module for interfacing with HopeRF RFM69 modules on a Raspberry Pi.
 
@@ -6,7 +6,7 @@ This module has only been tested on a Raspberry Pi Model B running NodeJS 0.10.2
 
 Support for other systems (e.g. BeagleBoard) will be considered.
 
-##Installation
+## Installation
 
 ```
 npm install dconstructing/rfm69
@@ -17,7 +17,7 @@ If you haven't already enabled SPI on your Raspberry Pi, you'll need to [enable 
 You'll also need to run your Node project with `sudo` in order to have permission to access the SPI interface. You may be able to modify permissions on your Pi to eliminate the need for `sudo`, but that has not been tested ([more info](https://github.com/natevw/pi-spi#example)). Install all your npm packages without `sudo` (or however you normally do it). Just use `sudo` to run the project.
 
 
-##Usage
+## Usage
 
 ```js
 var RFM69 = require('rfm69');
@@ -44,7 +44,7 @@ process.on('SIGINT', function() {
 });
 ```
 
-###RFM69([config])
+### RFM69([config])
 
 Create a new instance of an rfm69 module (you can have two wired up).
 
@@ -73,27 +73,27 @@ var config = {
 var rfm69 = new RFM69(config)
 ```
 
-####initialize()
+#### initialize()
 
 Turn on the RF module and apply its configuration
 
-####listen()
+#### listen()
 
 Tell the module to notify you of incoming messages.
 
-####send(string, callback)
+#### send(string, callback)
 
 Send a series of characters over the RF module. Callback function will be called when the message has been sent. Callback will be passed an error argument if an error is encountered during the send.
 
-####reset()
+#### reset()
 
 Reapply the module's configuration according to the options provided at instantiation.
 
-####close()
+#### close()
 
 Disable the RF module and allow the interrupt and reset GPIO pins to be used for other purposes.
 
-##Message Profiles
+## Message Profiles
 
 Message profiles allow the RF module to communicate with other RF modules that follow specific message format standards.
 
