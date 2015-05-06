@@ -12,6 +12,11 @@ Support for other systems (e.g. BeagleBoard) will be considered.
 npm install dconstructing/rfm69
 ```
 
+If you haven't already enabled SPI on your Raspberry Pi, you'll need to [enable the SPI kernel module](http://scruss.com/blog/2013/01/19/the-quite-rubbish-clock/#spi).
+
+You'll also need to run your Node project with `sudo` in order to have permission to access the SPI interface. You may be able to modify permissions on your Pi to eliminate the need for `sudo`, but that has not been tested ([more info](https://github.com/natevw/pi-spi#example)). Install all your npm packages without `sudo` (or however you normally do it). Just use `sudo` to run the project.
+
+
 ##Usage
 
 ```js
