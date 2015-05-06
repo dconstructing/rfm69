@@ -99,6 +99,6 @@ Message profiles allow the RF module to communicate with other RF modules that f
 
 The `default` profile sends exactly the outgoing message you specify and provides the full message body when an incoming message is received.
 
-The `lowPowerLab` profile formats outgoing messages in accordance with the [Arduino libraries provided by LowPowerLab](https://github.com/LowPowerLab/RFM69), allowing the Raspberry Pi to communicate with the [LowPowerLab Moteino](http://lowpowerlab.com/moteino/) and provide message filtering and message retries.
+The `lowPowerLab` profile formats outgoing messages in accordance with the [Arduino libraries provided by LowPowerLab](https://github.com/LowPowerLab/RFM69), allowing the Raspberry Pi to communicate with the [LowPowerLab Moteino](http://lowpowerlab.com/moteino/) and provide message filtering and message retries. *Not yet configured to ACK messages from a Moteino*.
 
 Other profiles can be developed an added with a pull-request.
