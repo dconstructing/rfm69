@@ -1,6 +1,6 @@
 {
   "name": "rfm69",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node module for interfacing with HopeRF RFM69 modules on a Raspberry Pi",
   "main": "index.js",
   "scripts": {
