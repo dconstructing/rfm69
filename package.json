@@ -28,5 +28,8 @@
   "dependencies": {
     "onoff": "^1.0.2",
     "pi-spi": "^0.8.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
   }
 }
