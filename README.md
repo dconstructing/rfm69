@@ -9,7 +9,7 @@ Support for other systems (e.g. BeagleBoard) will be considered.
 ## Installation
 
 ```
-npm install dconstructing/rfm69
+npm install rfm69
 ```
 
 If you haven't already enabled SPI on your Raspberry Pi, you'll need to [enable the SPI kernel module](http://scruss.com/blog/2013/01/19/the-quite-rubbish-clock/#spi).
