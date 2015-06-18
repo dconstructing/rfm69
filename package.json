@@ -1,6 +1,6 @@
 {
   "name": "rfm69",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Node module for interfacing with HopeRF RFM69 modules on a Raspberry Pi",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/dconstructing/rosie",
   "dependencies": {
     "onoff": "^1.0.2",
-    "pi-spi": "^0.8.7"
+    "pi-spi": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "^2.2.4"
